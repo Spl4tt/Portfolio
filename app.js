@@ -12,12 +12,12 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-//About page
+// About page
 app.get('/about', (req, res) => {
     res.render('about');
 });
 
-//About page
+// Project Page by ID
 app.get('/projects/:id', (req, res) => {
     const { id } = req.params;
     res.render('project', { project: projects[id]});
