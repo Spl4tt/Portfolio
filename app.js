@@ -43,10 +43,15 @@ app.use((err, req, res, next) => {
         console.log('Global error handler called', err);
     }
 
-    // check if Error is filled correctly
-    err.message = err.message || 'Oops, something went wrong!'
-    res.status = err.status || 500;
-    res.render('error', { err });
+    if(err.status === 404) {
+        res.render('not-found', { err });
+    }
+    else {
+        // check if Error is filled correctly
+        err.message = err.message || 'Oops, something went wrong!'
+        res.status = err.status || 500;
+        res.render('error', {err});
+    }
 });
 
 
