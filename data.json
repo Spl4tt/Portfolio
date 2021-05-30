@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "Diplays different famous quotes each time a button is clicked.",
+      "technologies": ["Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/Spl4tt/RandomQuoteGenerator",
+      "image_urls": ["./images/Unit1_randomQuoteGen1.jpg", "./images/Unit1_randomQuoteGen2.jpg"]
+    },
+    {
+      "id": 1,
+      "project_name": "Pagination",
+      "description": "Project to showcase Pagination.",
+      "technologies": ["Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/Spl4tt/Unit2_Pagination",
+      "image_urls": ["./images/Unit2_Pagination1.jpg", "./images/Unit2_Pagination2.jpg"]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "Interactive registration form for a conference event.",
+      "technologies": ["Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/Spl4tt/Unit3_InteractiveForm",
+      "image_urls": ["./images/Unit3_InteractiveForm1.jpg", "./images/Unit3_InteractiveForm2.jpg"]
+    },
+    {
+      "id": 3,
+      "project_name": "OOP Gameshow",
+      "description": "Browser-based word guessing game: Phrase Hunter.",
+      "technologies": ["Javascript"],
+      "live_link": "",
+      "github_link": "https://github.com/Spl4tt/Project4_OOPGameShow",
+      "image_urls": ["./images/Unit4_OOPGameShow1.jpg", "./images/Unit4_OOPGameShow2.jpg"]
+    },
+    {
+      "id": 4,
+      "project_name": "Public API Requests",
+      "description": "An app to share contact info with.",
+      "technologies": ["Javascript", "JSON", "randomuser API"],
+      "live_link": "",
+      "github_link": "https://github.com/Spl4tt/PublicAPIRequests",
+      "image_urls": ["./images/Unit5_PublicAPIRequests1.jpg", "./images/Unit5_PublicAPIRequests2.jpg"]
+    }
+  ]
+}
