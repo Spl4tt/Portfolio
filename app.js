@@ -19,7 +19,28 @@ app.get('/about', (req, res) => {
 
 //About page
 app.get('/projects/:id', (req, res) => {
+    const { id } = req.params;
+    res.render('project', { project: projects[id]});
+});
 
+// Error handlers
+// 404 TODO Why does it ALWAYS get here, even if a route catches?
+app.use((req, res, next) => {
+    const err = new Error('This page does not exist, sry');
+    err.status = 404;
+    next(err);
+});
+
+// General Error Handler
+app.use((err, req, res, next) => {
+    if (err) {
+        console.log('Global error handler called', err);
+    }
+
+    // check if Error is filled correctly
+    err.message = err.message || 'Oops, something went wrong!'
+    res.status = err.status || 500;
+    res.render('error', { err });
 });
 
 
