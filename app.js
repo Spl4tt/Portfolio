@@ -19,7 +19,6 @@ app.get('/about', (req, res) => {
 
 // Project Page by ID
 app.get('/projects/:id', (req, res) => {
-    console.log('projects here');
     const { id } = req.params;
     res.render('project', { project: projects[id]});
 });
