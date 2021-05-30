@@ -23,8 +23,12 @@ app.get('/projects/:id', (req, res) => {
     res.render('project', { project: projects[id]});
 });
 
+// app.use('/favicon.ico', (req, res, next) => {
+//     next();
+// });
+
 // Error handlers
-// 404 TODO Why does it ALWAYS get here, even if a route catches?
+// 404 TODO Why does it ALWAYS get here, even if a route catches? tries ./favicon.ico??
 app.use((req, res, next) => {
     const err = new Error('This page does not exist, sry');
     err.status = 404;
