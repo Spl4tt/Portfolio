@@ -5,7 +5,7 @@
       "project_name": "Random Quote Generator",
       "description": "Diplays different famous quotes each time a button is clicked.",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "",
+      "live_link": "https://spl4tt.github.io/RandomQuoteGenerator/",
       "github_link": "https://github.com/Spl4tt/RandomQuoteGenerator",
       "image_urls": ["./static/images/Unit1_randomQuoteGen1.jpg", "./static/images/Unit1_randomQuoteGen2.jpg"]
     },
@@ -14,7 +14,7 @@
       "project_name": "Pagination",
       "description": "Project to showcase Pagination.",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "",
+      "live_link": "https://spl4tt.github.io/Unit2_Pagination/",
       "github_link": "https://github.com/Spl4tt/Unit2_Pagination",
       "image_urls": ["./static/images/Unit2_Pagination1.jpg", "./static/images/Unit2_Pagination2.jpg"]
     },
@@ -23,7 +23,7 @@
       "project_name": "Interactive Form",
       "description": "Interactive registration form for a conference event.",
       "technologies": ["Javascript"],
-      "live_link": "",
+      "live_link": "https://spl4tt.github.io/Unit3_InteractiveForm/",
       "github_link": "https://github.com/Spl4tt/Unit3_InteractiveForm",
       "image_urls": ["./static/images/Unit3_InteractiveForm1.jpg", "./static/images/Unit3_InteractiveForm2.jpg"]
     },
@@ -32,7 +32,7 @@
       "project_name": "OOP Gameshow",
       "description": "Browser-based word guessing game: Phrase Hunter.",
       "technologies": ["Javascript"],
-      "live_link": "",
+      "live_link": "https://spl4tt.github.io/Project4_OOPGameShow/",
       "github_link": "https://github.com/Spl4tt/Project4_OOPGameShow",
       "image_urls": ["./static/images/Unit4_OOPGameShow1.jpg", "./static/images/Unit4_OOPGameShow2.jpg"]
     },
@@ -41,7 +41,7 @@
       "project_name": "Public API Requests",
       "description": "An app to share contact info with.",
       "technologies": ["Javascript", "JSON", "randomuser API"],
-      "live_link": "",
+      "live_link": "https://spl4tt.github.io/PublicAPIRequests/",
       "github_link": "https://github.com/Spl4tt/PublicAPIRequests",
       "image_urls": ["./static/images/Unit5_PublicAPIRequests1.jpg", "./static/images/Unit5_PublicAPIRequests2.jpg"]
     }

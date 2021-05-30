@@ -19,18 +19,20 @@ app.get('/about', (req, res) => {
 
 // Project Page by ID
 app.get('/projects/:id', (req, res) => {
+    console.log('projects here');
     const { id } = req.params;
     res.render('project', { project: projects[id]});
 });
 
-// app.use('/favicon.ico', (req, res, next) => {
-//     next();
-// });
+// My Express seemed to always look for this, so it threw a 404 error.
+app.use('/favicon.ico', (req, res, next) => {
+    res.status(204);
+});
 
 // Error handlers
 // 404 TODO Why does it ALWAYS get here, even if a route catches? tries ./favicon.ico??
 app.use((req, res, next) => {
-    const err = new Error('This page does not exist, sry');
+    const err = new Error('This page does not exist, sry: ' + req.url);
     err.status = 404;
     next(err);
 });
